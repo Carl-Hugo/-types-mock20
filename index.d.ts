@@ -49,9 +49,15 @@ declare function getObj(type: "ability", id: string, options: MOCK20Options): Ab
 declare function getObj(type: "player", id: string, options: MOCK20Options): Player | undefined;
 
 // Functions - API:Events
+declare interface MOCK20OnResetOptions {
+    MOCK20reset: boolean,
+}
+declare interface MOCK20OnRemoveOptions {
+    MOCK20remove: boolean
+}
 declare function MOCK20endOfLastScript(): void;
-declare function on({ MOCK20reset: boolean }): void;
-declare function on({ MOCK20remove: boolean }, callback: (msg: ChatEventData) => void): void;
+declare function on(mockOptions: MOCK20OnResetOptions): void;
+declare function on(mockOptions: MOCK20OnRemoveOptions, callback: (msg: ChatEventData) => void): void;
 declare function on(event: string, callback: (msg: ChatEventData) => void): void;
 
 
@@ -80,7 +86,7 @@ declare type moveToFolderItem = Character | Handout | Roll20ObjectBaseProperties
 declare function MOCK20moveToFolder(item: moveToFolderItem, folderid: string): void;
 declare function MOCK20moveBeforeFolderItem(item: moveToFolderItem, targetid: string): void;
 declare function MOCK20moveToPlaylist(item: moveToFolderItem, folderid: string): void;
-declare function MOCK20moveBeforePlaylistItem(item, targetid): void;
+declare function MOCK20moveBeforePlaylistItem(item: any, targetid: any): void;
 
 // TODO: extract types from mock20 objects; MOCK20object and descendants
 // MOCK20folder should extends MOCK20object
