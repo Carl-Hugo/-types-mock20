@@ -24,6 +24,6 @@
     "devDependencies": {
         "@types/cheerio": "0.22.0",
         "@types/underscore": "1.8.3",
-        "@types/roll20": "1.0.0"
+        "@types/roll20": "^1.0.1"
     }
 }
