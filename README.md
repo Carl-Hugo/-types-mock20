@@ -1,2 +1,2 @@
-# -types-mock20
-Mock20 definition file
+# mock20 types definition
+[Mock20](https://github.com/kyleady/Mock20) types definition file.
