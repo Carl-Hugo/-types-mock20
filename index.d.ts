@@ -1,5 +1,3 @@
-/// <reference path="../src/roll20.d.ts" />
-
 // Options
 declare interface MOCK20Options {
     MOCK20override?: boolean;
