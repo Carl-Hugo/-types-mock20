@@ -4,13 +4,11 @@ declare interface MOCK20Options {
 }
 declare type MOCK20FindObjsOptions = FindObjectOptions & MOCK20Options;
 declare type MOCK20SendChatOptions = ChatMessageHandlingOptions & MOCK20Options & { MOCK20playerid?: string, MOCK20tag?: string };
-declare interface CampaignMock {
-    MOCK20reset(): void;
-}
-
 
 //Functions - API:Objects
-declare function Campaign(): Campaign & CampaignMock;
+declare interface Campaign {
+    MOCK20reset(): void;
+}
 
 interface PlayerCreationProperties {
     _id?: string,
