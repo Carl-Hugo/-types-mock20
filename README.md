@@ -8,7 +8,7 @@
 npm i types-mock20 --save-dev
 ```
 
-See https://www.npmjs.com/package/types-roll20
+See https://www.npmjs.com/package/types-mock20
 
 ## How to contribute?
 
