@@ -1,29 +1,26 @@
 {
-    "name": "@types/mock20",
-    "version": "1.0.2",
-    "description": "Mock20 type definition file",
-    "author": "Carl-Hugo Marcotte (https://github.com/Carl-Hugo)",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Carl-Hugo/types-mock20"
-    },
-    "publishConfig": {
-        "registry": "https://www.myget.org/F/roll20/npm/"
-    },
-    "keywords": [
-        "roll20",
-        "mock20",
-        "typescript",
-        "typescript-definition"
-    ],
-    "bugs": {
-        "url": "https://github.com/Carl-Hugo/types-mock20/issues"
-    },
-    "homepage": "https://github.com/Carl-Hugo/types-mock20#readme",
-    "devDependencies": {
-        "@types/cheerio": "0.22.0",
-        "@types/underscore": "1.8.3",
-        "@types/roll20": "^1.0.1"
-    }
+  "name": "types-mock20",
+  "version": "1.0.2",
+  "description": "Mock20 type definition file",
+  "author": "Carl-Hugo Marcotte (https://github.com/Carl-Hugo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Carl-Hugo/types-mock20"
+  },
+  "keywords": [
+    "roll20",
+    "mock20",
+    "typescript",
+    "typescript-definition"
+  ],
+  "bugs": {
+    "url": "https://github.com/Carl-Hugo/types-mock20/issues"
+  },
+  "homepage": "https://github.com/Carl-Hugo/types-mock20#readme",
+  "devDependencies": {
+    "@types/cheerio": "0.22.0",
+    "@types/underscore": "1.8.3",
+    "@types/roll20": "^1.0.1"
+  }
 }
